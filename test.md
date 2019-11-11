@@ -17,3 +17,7 @@ Second.
 
 ## Picture from github
 ![Example](https://raw.githubusercontent.com/gary317680/BENG183/master/fastp_duplication_plot.png "Some description")
+
+---
+Additional Sections
+---
