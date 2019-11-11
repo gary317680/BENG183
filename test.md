@@ -22,7 +22,7 @@ Second.
 Additional Sections
 ---
 
-[comment]: <> (Note that by putting --- right above and below a line of 
+[comment]: <> (Note that by putting right above and below a line of 
 normal text, we have a heading (level 2).)
 
 Stuff below?
