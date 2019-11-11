@@ -26,6 +26,8 @@ Additional Sections
                normal text, we have a heading (level 2).)
 
 Stuff below?
+[comment]: <> (This is a comment
+               everything in here won't be in the final doc)
 
 ---
 ### Sources
