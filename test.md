@@ -16,4 +16,4 @@ Second.
 |***D04***|35|13|1|
 
 ## Picture from github
-![Example](https://github.com/gary317680/BENG183/master/fastp_duplication_plot.png "Some description")
+![Example](https://raw.githubusercontent/gary317680/BENG183/master/fastp_duplication_plot.png "Some description")
