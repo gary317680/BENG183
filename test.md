@@ -8,3 +8,9 @@ First.
 
 Second.
 <p> Third. </p>
+
+## Table
+|Section|# enrolled|# attended DI|# attended OH|
+|:-:|-|:-:|-:|
+|**D03**|35|17|1|
+|***D04***|35|13|1|
