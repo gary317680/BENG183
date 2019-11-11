@@ -22,3 +22,8 @@ Second.
 Additional Sections
 ---
 Stuff below?
+---
+### Sources
+1. a research paper
+2. the textbook
+3. [some links](google.com)
