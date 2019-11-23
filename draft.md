@@ -1,3 +1,23 @@
+<style TYPE="text/css">
+code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
+</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
+    }
+});
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML-full"></script>
+
+
 # Application of clustering:
 ## 1. Ancestry analysis
 In class, we learned that the gene expression profile can be used as a basis for clustering cancer patients into more specific cancer subgroups. Another perhaps natural criterion to classify biological samples is to cluster them by ancestral history. Consider the human populations as an example. Let us, for a moment, assume that the human ancestry is closely associated with the geography of the world. Then one may roughly sort the human populations into several groups: European, Asian, American, African, and Australian. With this scheme of grouping, one may classify people with shared European ancestry into one group, people sharing Asian ancestry into another, etc. 
