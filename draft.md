@@ -26,3 +26,4 @@ A non distance-based clustering technique.
   If the gene has 3 alleles (such as the gene for ABO blood type), we can introduce an additional variable, r, to denote the frequency of the third allele. In this case, we have p + r + q = 1, and $$(p + r + q)^2 = p^2 + r^2 +q^2 + 2pr + 2pq + 2qr = 1$$. Each of p, r, and q denotes the allele frequencies, whereas the pair-wise products of p, r, and q represent the frequency of each genotype.
 
 $$e= mc^{2}$$
+\e=mc^{2}
