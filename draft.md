@@ -1,22 +1,3 @@
-<style TYPE="text/css">
-code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
-</style>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-    tex2jax: {
-        inlineMath: [['$','$'], ['\\(','\\)']],
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
-    }
-});
-MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i = 0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';
-    }
-});
-</script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML-full"></script>
-
 
 # Application of clustering:
 ## 1. Ancestry analysis
@@ -44,6 +25,3 @@ A non distance-based clustering technique.
   Before we see how this assumptions are satisfied, let us explore the use of Herdy-Weinberg principle. Consider a gene that has two alleles, A, and a. Let p be the frequency of allele A, and q be the frequency of allele a. Then p + q = 1 and $$(p + q)^2 = p^2 + 2pq + q^2 = 1$$. In this case, p^2 represents the frequency of genotype AA, 2pq the frequency of genotype Aa, and q^2 the frequency of aa. By the Hardy-Weinberg principle, populations that satisfy the above 5 assumptions should maintain constain values for p and q. That is, population in Hardy-Weinberg equilibrium have predictable allele frequencies. If a population has p = 0.7 and q = 0.3, then by randomly sampling from the population a large number of time, 70% of the alleles seen will be A, and allele a will be seen for 30% of time. Moreover, of the randomly sampled individuals, 49% of them will have genotype AA, 42% of them with genotype Aa, and 9% with genotype aa.
 
   If the gene has 3 alleles (such as the gene for ABO blood type), we can introduce an additional variable, r, to denote the frequency of the third allele. In this case, we have p + r + q = 1, and $$(p + r + q)^2 = p^2 + r^2 +q^2 + 2pr + 2pq + 2qr = 1$$. Each of p, r, and q denotes the allele frequencies, whereas the pair-wise products of p, r, and q represent the frequency of each genotype.
-
-$$e= mc^{2}$$
-$\e=mc^{2}$
