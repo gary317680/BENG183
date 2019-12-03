@@ -5,12 +5,16 @@ Multilocus Genotype Data.” Genetics, Genetics Society of America, 1 June 2000 
 3. Essential of Genetics (BICD 100 Textbook)
 4. [Picture source](https://www.datanovia.com/en/lessons/model-based-clustering-essentials/)  
 5. ![img](http://bit.ly/384N4kM)
+
 6. ![expanded
 bionomial](http://raw.githubusercontent.com/gary317680/BENG183/master/expanded_binomial.png)
+
 7. ![p
 square](http://raw.githubusercontent.com/gary317680/BENG183/master/p_square.png)
+
 8. ![q
 square](http://raw.githubusercontent.com/gary317680/BENG183/master/q_square.png)
+
 9. ![2pq](http://raw.githubusercontent.com/gary317680/BENNG183/master/2pq.png)
 
 10.![expanded
