@@ -11,4 +11,4 @@ Multilocus Genotype Data.” Genetics, Genetics Society of America, 1 June 2000 
 9. ![2pq](http://bit.ly/3642cgb)
 
 10.![expanded
-trinomial](https://raw.githubusercontent.com/gary317680/BENG183/master/expanded-trinomial.png)
+trinomial](https://raw.githubusercontent.com/gary317680/BENG183/master/expanded_trinomial.png)
