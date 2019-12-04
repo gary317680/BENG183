@@ -64,7 +64,7 @@ The algorithms can stop when the cluster assignments converge (stabilize) or aft
 <p align="center">
   |classification|uncertainty|
   |:---:|:---:|
-  |![classification](https://raw.githubusercontent.com/gary317680/BENG183/master/Model-based_clustering_ex.png") | <img src="https://raw.githubusercontent.com/gary317680/BENG183/master/Model-based_clustering_uncertainty_ex.png"> |
+  |![classification](https://raw.githubusercontent.com/gary317680/BENG183/master/Model-based_clustering_ex.png) | <img src="https://raw.githubusercontent.com/gary317680/BENG183/master/Model-based_clustering_uncertainty_ex.png"> |
 </p>
 
 &nbsp;&nbsp;&nbsp;&nbsp; As discussed in class, for K-means clustering, it is difficult to figure out the optimal number for K without trying multiple values of K. The same principle holds for the model-based clustering. However, in our ancestry analysis, it is possible to use the demographic information collected during the sampling step to facilitate an estimation for K. Nonetheless, care should be taken in interpreting the meaning of K. The value of K that yields the optimal cluster assignment may not actually correspond to K real populations! 
