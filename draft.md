@@ -66,6 +66,6 @@ STRUCTURE solves the following bioinformatics problem:
 </figure>
 
 <figure>
-  <img src="https://raw.githubusercontent.com/gary317680/BENG183/master/Model-based-clustering.png">
+  <img src="https://raw.githubusercontent.com/gary317680/BENG183/master/Model-based_clustering.png">
   <figcaption> Figure 9 Clustering results of the African population analysis from Tishkoff, et al. (7)</figcaption>
 </figure>
