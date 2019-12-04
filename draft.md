@@ -63,7 +63,7 @@ The algorithms can stop when the cluster assignments converge (stabilize) or aft
 
 <p align="center">
   |classification|uncertainty|
-  |:-:|:-:|
+  |:---:|:---:|
   |<img src="https://raw.githubusercontent.com/gary317680/BENG183/master/Model-based_clustering_ex.png"> | <img src="https://raw.githubusercontent.com/gary317680/BENG183/master/Model-based_clustering_uncertainty_ex.png"> |
 </p>
 
