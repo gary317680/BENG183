@@ -61,11 +61,9 @@ STRUCTURE solves the following bioinformatics problem:
 
 The algorithms can stop when the cluster assignments converge (stabilize) or after a predefined number of iterations have been run. Ideally, the final cluster assignment outputted by each algorithm should be optimal in the sense that, for K-means algorithm, the intra-cluster distances is small, and the inter-cluster distances are high, and for the model-based algorithm, the intra-cluster allele frequency distribution resembles that of the predefined clusters. In other words, the amount of uncertainty in all cluster assignment should be minimized; in other words, the final cluster assignment is the one with the most confidence (see Figure 11).
 
-<p align="center">
-  |classification|uncertainty|
-  |:---:|:---:|
-  |![classification](https://raw.githubusercontent.com/gary317680/BENG183/master/Model-based_clustering_ex.png) | <img src="https://raw.githubusercontent.com/gary317680/BENG183/master/Model-based_clustering_uncertainty_ex.png"> |
-</p>
+|classification|uncertainty|
+|:---:|:---:|
+|![classification](https://raw.githubusercontent.com/gary317680/BENG183/master/Model-based_clustering_ex.png) | <img src="https://raw.githubusercontent.com/gary317680/BENG183/master/Model-based_clustering_uncertainty_ex.png"> |
 
 &nbsp;&nbsp;&nbsp;&nbsp; As discussed in class, for K-means clustering, it is difficult to figure out the optimal number for K without trying multiple values of K. The same principle holds for the model-based clustering. However, in our ancestry analysis, it is possible to use the demographic information collected during the sampling step to facilitate an estimation for K. Nonetheless, care should be taken in interpreting the meaning of K. The value of K that yields the optimal cluster assignment may not actually correspond to K real populations! 
 
