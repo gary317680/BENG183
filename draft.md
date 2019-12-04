@@ -60,12 +60,16 @@ STRUCTURE solves the following bioinformatics problem:
 ### Choosing the significant genetic marker for analysis
 &nbsp;&nbsp;&nbsp;&nbsp; Note that in our ancestry analysis, our model makes use of allele frequencies as a defining feature for each ancestral group. If there is a gene with the same allele frequencies in all populations, such a gene is not useful in distinguishing between different populations. Therefore, we must select genes that have varying allele frequencies distribution in different populations to aid our analysis. One common technique is to use Principal Component Analysis (PCA), which was introduced in an earlier section. The key idea is to use PCA to identify principle components that can best explain the variations between data points. In practice, we can genotype the individuals from all populations at various loci, perform PCA on the genotype vectors, and identify useful gene loci that can best help distinguish the population (gene markers). For example, Tishkoff et al uses PCA to identify the major factors that distinguish between African populations (see Figure 8), and use the appropriately selected genetic markers to perform the model-based clustering algorithm (via STRUCTURE, see Figure 9). 
 
+<p style="text_align:center;">
 <figure>
   <img src="https://raw.githubusercontent.com/gary317680/BENG183/master/PCA_analysis.png">
   <figcaption> Figure 8 PCA analysis, based on genotypes of the individuals, from Tishkoff, et al. (7) </figcaption>
 </figure>
+</p>
 
+<p style="text_align:center;">
 <figure>
   <img src="https://raw.githubusercontent.com/gary317680/BENG183/master/Model-based_clustering.png">
   <figcaption> Figure 9 Clustering results of the African population analysis from Tishkoff, et al. (7)</figcaption>
 </figure>
+</p>
