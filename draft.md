@@ -61,7 +61,7 @@ STRUCTURE solves the following bioinformatics problem:
 
 The algorithms can stop when the cluster assignments converge (stabilize) or after a predefined number of iterations have been run. Ideally, the final cluster assignment outputted by each algorithm should be optimal in the sense that, for K-means algorithm, the intra-cluster distances is small, and the inter-cluster distances are high, and for the model-based algorithm, the intra-cluster allele frequency distribution resembles that of the predefined clusters. In other words, the amount of uncertainty in all cluster assignment should be minimized; in other words, the final cluster assignment is the one with the most confidence (see Figure 11).
 
-
+| | |
 |:---:|:---:|
 |![classification](https://raw.githubusercontent.com/gary317680/BENG183/master/Model-based_clustering_ex.png) | <img src="https://raw.githubusercontent.com/gary317680/BENG183/master/Model-based_clustering_uncertainty_ex.png"> |
 
